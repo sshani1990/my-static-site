@@ -27,7 +27,8 @@ jobs:
       - name: Upload site to artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: index.html # Your site files (e.g., index.html) are here
+          path: Site 
+                index.html 
 
       - name: Deploy to GitHub Pages
         id: deployment
